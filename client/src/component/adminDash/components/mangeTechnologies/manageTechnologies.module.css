@@ -1,0 +1,61 @@
+.manageTechContainer {
+  width: 100vw;
+  background-color: var(--base-color);
+  display: grid;
+  padding-bottom: 40px;
+  place-items: center;
+  /* height:100vh; */
+  /* overflow: hidden; */
+}
+.manageTechContent {
+  width: 80%;
+  margin-top: 100px;
+}
+.HeaderTitle {
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+}
+.cardsContainer {
+  width: 100%;
+  /* max-height: 76vh; */
+  display: flex;
+  flex-direction: column;
+
+}
+.technologyBtn {
+  border: 1px solid rgb(212, 206, 206) !important;
+  font-size: 14px !important;
+  margin: 0 8px !important;
+}
+.addItem {
+  margin: 10px 0;
+}
+.addItem label {
+  font-size: 16px !important;
+  cursor: pointer;
+
+}
+.addItem textarea {
+  font-size: 14px !important;
+}
+.stackItems {
+  margin: 10px 0;
+}
+.stackItems label {
+  font-size: 14px !important;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .manageTechContainer {
+    padding-bottom: 16vh;
+  }
+  .manageTechContent {
+    width: 90%;
+    margin-top: 100px;
+  }
+  .cardsContainer {
+  }
+}

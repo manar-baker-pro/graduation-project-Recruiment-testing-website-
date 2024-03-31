@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css2?family=Kalam:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;500;600;800;900&display=swap);
+/* :root {
+  --bg-color: #f0edf1;
+  --text-color: #555;
+  --light-color: #ffffff;
+  --dark-color: #cbced1;
+  --darker-color: #a7aaaf;
+  --white-color: #ffffff;
+  --pink-color: #aa1178;
+  --violet-color: #7008a4;
+  --transition-some: background 0.3s, box-shadow 0.4s;
+  --transition-all: all 0.4s;
+  --tw-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03),
+    0px 7px 25px rgba(0, 0, 0, 0.03), 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+  --tw-shadow-colored: 0px 4px 12px var(--tw-shadow-color),
+    0px 7px 25px var(--tw-shadow-color), 0px 0px 0px 1px var(--tw-shadow-color); */
+/* } */
+:root{
+  --base-color:#f4f4f9;
+  --base-blue:#4568dc;
+  --base-purple:#460192;
+  --sleep-purple:#1b0341;
+  --sun-purple:#7f33ec;
+  --base-yellow:#ee8423;
+  --alpha-meduim:0.6;
+  --purple-to-blue:#4c00ff;
+
+}
+
+.dark {
+  --bg-color: #34393e;
+  --text-color: #d3d3d4;
+  --light-color: #41484e;
+  --dark-color: #2e3236;
+  --darker-color: #1c1f22;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background-color: #e1ddfd;
+  
+}
+
+  
+

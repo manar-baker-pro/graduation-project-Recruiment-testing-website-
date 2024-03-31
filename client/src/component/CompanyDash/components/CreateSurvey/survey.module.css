@@ -1,0 +1,255 @@
+.surveyContainer {
+  margin: auto;
+  width: 65%;
+}
+.titleSection {
+  font-size: 30px;
+  font-family: "Poltawski Nowy", serif;
+}
+.surveyGlobalInfo {
+  background-color: white;
+  border-top: 8px solid rgb(89, 0, 255);
+  border-radius: 8px;
+  width: 100%;
+  padding: 30px 30px;
+  margin-top: 12px;
+  text-transform: capitalize;
+}
+.indicatorQuestion {
+  width: 100%;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.formHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #ffffff;
+}
+.formHeaderLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.formHeaderRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.formName {
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 10px;
+  width: 120px;
+  color: #202422;
+  transition: all 0.2s linear;
+}
+.formName:focus {
+  border-bottom: 1px solid #202422;
+}
+.formHeaderIcon {
+  color: #202422;
+  font-size: 20px;
+}
+/* QUESTIONFORM */
+.createSurveyContainer {
+  background-color: var(--base-color);
+  height: 100%;
+  padding-top: 75px;
+  padding-bottom: 30px;
+}
+.jobTitle {
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: black;
+  height: 35px;
+}
+.jobDescription {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 100%;
+  resize: none;
+  overflow-wrap: break-word;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  color: black;
+}
+.questionBoxes {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.addQuestion {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 25px 22px;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+  width: 93%;
+  margin-left: 10px;
+}
+.addQuestionTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.question {
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  border: 0px;
+  background-color: #fcf9f9;
+  border-bottom: 1px solid #7171be;
+
+  flex: 1;
+  width: 40%;
+  color: black;
+  height: 40px;
+  margin-right: 10px;
+  line-height: 10px;
+  padding: 10px;
+}
+.question:focus {
+  border-bottom: 1px solid #5900ff;
+  background-color: #f4f4f9;
+}
+.selectComp {
+  height: 40px;
+  width: 35%;
+  border: 1.5px solid #f4f4f9;
+  padding: 5px 15px;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.menuItem {
+  color: #202422;
+}
+
+.addQuestionBody {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-left: 20px;
+}
+.textInput {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  color: #202422;
+}
+.textInput:focus {
+  border-bottom: 1px solid rgb(89, 0, 255);
+}
+.addQuestionBottom {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 10px;
+  height: 40px;
+}
+.addBorder {
+  border-left: 6px solid #5548ce;
+}
+.addQustionBottomLeft {
+  width:auto;
+  padding-top: 10px;
+  height: 40px;
+}
+.questionEdit {
+  background-color: #f4f4f9;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0 1px 1px 0 rgba(0, 0, 0, 0.141), 0 1px 3px 0 rgba(0, 0, 0, 0.122);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 12px;
+  margin-bottom: 0px;
+  padding: 3px;
+  border-radius: 3px;
+  height: 150px;
+  width: 48px;
+}
+.edit {
+  color: #5f6368;
+  font-size: 20px !important;
+}
+.shareIcon {
+  cursor: pointer;
+}
+.points {
+  width: 10%;
+  text-align: center;
+  outline: none;
+  border: 0.5px solid #5f6368;
+  border-radius: 5px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  padding: 5px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+.points:focus {
+  border-color: #5548ce;
+}
+input[type="number"]::-webkit-outer-spin-button {
+  background-color: red;
+}
+/* TechModalSelect */
+.containerDispalyTech {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index:3;
+  transition: all 0.3s linear;
+}
+.hoverDelete {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+  z-index: -5;
+  position: absolute;
+  border-radius: 11px;
+}
+.containerDispalyTech:hover {
+  /* z-index: -6; */
+  /* opacity:0; */
+}
+@media only screen and (max-width: 810px) {
+  .quesSection {
+    margin: auto;
+    width: 80%;
+  }
+  .surveyContainer {
+    width: 80%;
+  }
+}

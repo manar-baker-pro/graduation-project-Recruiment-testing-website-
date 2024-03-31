@@ -1,0 +1,4 @@
+{
+    "js/ts.implicitProjectConfig.target": "ES2020",
+    "typescript.enablePromptUseWorkspaceTsdk": true
+}

@@ -1,0 +1,284 @@
+body {
+  z-index: 1;
+}
+
+.containerSignture {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  z-index: 1;
+  background: #c6eed2;
+  background-image: linear-gradient(25deg, #162b73, #4d3293, #7a35b4, #a734d6);
+}
+.card {
+  width: 40%;
+  height: 85%;
+  display: flex;
+  font-size: 16px;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  border-radius: 10px 0 0 10px;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  background-image: url(../../../public/assets/images/bg_sign.png);
+  background-position: center;
+  background-size: cover;
+}
+.legalCard {
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  width: 37%;
+  flex-direction: column;
+  background: #fff;
+  padding: 50px 0px;
+  border-radius: 0 10px 10px 0;
+}
+.welcomeSign {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  border-radius: 10px;
+  background-color: rgba(189, 192, 250, 0.2);
+  margin-top: 130px;
+}
+.formClass {
+  display: flex;
+  position: relative;
+  width: 80%;
+  flex-direction: column !important ;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.formClass p {
+  overflow: hidden !important;
+  margin-top: 0 !important;
+  height: 20px;
+  text-align: start;
+}
+
+.WelcomeHeader {
+  font-size: 30px;
+  text-align: center;
+  background-image: linear-gradient(45deg, #b298d1, #25064c);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Kalam", handwriting;
+  z-index: 3;
+}
+.fieldClass {
+  margin-top: 4% !important;
+  width: 84%;
+  height: 60px;
+  margin: 0;
+  z-index: 3;
+}
+.fieldClass input {
+  padding: 10px !important;
+}
+.btnStyle {
+  background: linear-gradient(to right, #f79651, #f03f8e);
+  font-size: 18px;
+  padding: 14px 60px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  z-index: 3;
+}
+.btnStyle:hover {
+  background: #b298d1;
+  color: white;
+}
+
+.logoSign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoSign img {
+  width: 35%;
+  height: 30%;
+  z-index: 10;
+}
+.logoDes {
+  color: #929599 !important;
+  align-self: center;
+  text-align: center !important;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+/* welcome page */
+.welcomeContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      rgba(164, 67, 230, 0.2),
+      rgba(188, 122, 231, 0.3)
+    ),
+    url("../../../public/assets/images/imgBackground.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.cardWelocme {
+  padding: 30px;
+  width: 44%;
+  min-height: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 2px solid #25064c;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+
+.welcomeHeader h1 {
+  width: 100%;
+  font-size: 35px;
+  text-align: center;
+  color: #25064c;
+}
+.welcomeHeader p {
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  font-size: 18px;
+}
+.logoContainer {
+  width: 40vw;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  /* position: fixed;
+  top: 40px;
+  left:10px; */
+}
+
+.btnContainerWelcome {
+  display: flex;
+  width: 80%;
+  height: max-content;
+  flex-wrap: wrap;
+  background-color: transparent;
+  justify-content: flex-start;
+}
+.btnContainerWelcome .btnStyle {
+  width: 40%;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.btnStyle a {
+  text-decoration: none;
+  color: white;
+}
+.btnEmp {
+  background: transparent;
+  border: 1px solid #25064c;
+  color: white;
+  transition: all 0.6s linear;
+}
+
+.btnEmp:hover {
+  background: linear-gradient(45deg, #4d3293, rgba(77, 50, 147, 0.6));
+}
+.btnEmp:hover a {
+  color: white;
+}
+.btnComp {
+  background: linear-gradient(45deg, #4d3293, rgba(77, 50, 147, 0.6));
+}
+.btnComp a {
+  color: white;
+}
+.btnComp:hover {
+  background: transparent;
+  border: 2px solid #25064c;
+  color: #25064c;
+}
+
+.specialConComp {
+  height: calc(100vh + 135px);
+}
+/* .specialConEmp {
+  height: calc(100vh + 100px);
+} */
+.specialConComp button {
+  width: 35%;
+  margin-right: 10px;
+  padding: 0 20px;
+}
+
+.checkLabel {
+  width: 100%;
+  justify-content: center !important;
+}
+.checkLabel span:nth-child(2) {
+  color: rgb(102, 100, 100);
+  margin-left: 3px !important;
+  width: 84% !important;
+  font-size: 14px;
+}
+.checkboxStyle{
+  margin-left: 10px;
+}
+.checkboxStyle span:nth-child(2) {
+  color: rgb(102, 100, 100);
+  margin-left:3px !important;
+  width: 84% !important;
+  font-size: 14px;
+}
+
+/* =================responsive settings===================== */
+@media screen and (max-width: 1024px) {
+  .card {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .containerSignture {
+    flex-direction: column-reverse;
+    /* padding: 10px; */
+  }
+  .cardWelocme {
+    width: 90%;
+  }
+  .card {
+    width: 80%;
+    height: 20%;
+    border-radius: 10px 10px 0 0;
+  }
+  .formClass {
+    margin: 20px 0;
+  }
+  .legalCard {
+    padding: 20px 0;
+    height: auto;
+    border-radius: 0 0 10px 10px;
+  }
+}

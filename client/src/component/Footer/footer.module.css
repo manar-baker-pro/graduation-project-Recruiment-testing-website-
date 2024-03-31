@@ -1,0 +1,18 @@
+.footerPrivacy {
+    color: #ef8e20;
+    width: 100%;
+    font-size: 14px !important;
+    height: 5vh;
+    background-color:#221e2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+  }
+  .footerPrivacy span {
+    font-size: 12px !important;
+  }
+  .footerPrivacy a {
+    font-size: 12px !important;
+    color: #c4b52d;
+  }
